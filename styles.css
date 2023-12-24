@@ -492,13 +492,13 @@ border-color: white;
 
 /* Footer styles */
 footer {
-    background-color:grey;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+  background-color:grey;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 
@@ -525,9 +525,25 @@ footer {
     .header-text h2 {
         font-size: 32px; 
     }
+    nav ul {
+      display: flex;
+      justify-content:flex-end; 
+      padding: 0;
+    }
+    
+    nav ul li {
+      margin-right: 50px; 
+    }
+    
+    
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      color:aqua
+    }
 
     nav ul {
-        margin-top: 15px; 
+        margin-top: 15px;  
     }
 
     main {
@@ -539,77 +555,130 @@ footer {
     }
 
     .subsection {
-        flex-direction: column; /* Stack items for smaller screens */
+        flex-direction: column;
     }
 
     .details {
-        margin-left: 0; /* Remove excessive margin */
+        margin-left: 0; 
     }
 
-    #bio img {
-        width: 100%; /* Ensure images fit container width */
-        margin: 15px auto; /* Center align image */
-        display: block;
-    }
+      #bio img {
+        top: 580px; 
+        margin-left: 340px; 
+        width: 100%;
+      }
+    
+      #bio h4 {
+        font-size: 20px; 
+      }
+    
+      #bio p {
+        font-size: 16px; 
+      }
+    
+      .introduction h2 {
+        font-size: 25px; 
+      }
+    
+      .introduction h3 {
+        font-size: 15px;
+      }
 
-    .elemcircle-image,
-    .hscircle-image,
-    .collegecircle-image {
-        width: 70px; /* Adjustment for circle images for smaller screens */
-        height: 70px;
+      .elemcircle-image,
+      .hscircle-image,
+      .collegecircle-image {
+        width: 70px;
+        height: 70px; 
+        position: absolute; 
+        top: 20px;
+        right: 20px; 
+        border-radius: 50%; 
+        margin-left: 50px; 
+      }
+    
+      /* Adjusted styles for details */
+      .elem-details,
+      .hs-details,
+      .college-details {
+        padding: 0 20px; 
+        text-align: center; 
+      }
+    
+      #education p {
+        margin-bottom: 10px; 
+      }
+    
+      #education h4 {
+        font-size: 18px; 
+      }
+    
+    .booknovel {
+      margin-right: 20px; 
+      margin-top: 20px;
     }
-
-    .elem-details,
-    .hs-details,
-    .college-details {
-        padding-left: 15px; /* Adjustment for padding for details */
+  
+    .novel-image {
+      width: 200px;
+      margin-bottom: 10px; 
     }
-
-    #education p {
-        text-align: left; /* Reset text alignment */
+  
+    .novel-details {
+      margin-top: 10px; 
+    }
+  
+    .novel-details h4 {
+      font-size: 25px;
+    }
+  
+    .novel-details p {
+      font-size: 16px;
     }
 
     #awards h2 {
-        font-size: 28px; /* Adjust heading size */
+        font-size: 28px;
     }
 
     .interest_details h2 {
-        font-size: 32px; /* Adjust interest heading size */
+        font-size: 32px; 
     }
 
     .booknovel {
-        margin-right: 20px; /* Adjust margin */
+        margin-right: 20px;
         margin-top: 20px;
     }
 
     .novel-image {
-        width: 200px; /* Adjust image size */
-        margin-left: 0; /* Reset margin */
+        width: 200px; 
+        margin-right: 10px; 
     }
 
     .novel-details h4 {
         font-size: 24px; /* Adjust novel details heading size */
     }
+    .novel-details p {
+      font-size: 10px;
+
+    }
 
     #destination {
-        margin-top: 50px; /* Adjust margin */
+        margin-top: 50px;
     }
 
     .place {
-        margin-left: 0; /* Reset margin */
+        margin-left: 0;
     }
 
     .destination-details h4 {
-        text-align: center; /* Center align heading */
+        text-align: center; 
     }
 
     .destination-item {
-        width: 100%; /* Full width for items */
+        width: 100%;
         margin-bottom: 15px;
     }
 
     .destination-item img {
-        height: 150px; /* Adjust image height */
+        height: 150px;
         
     }
 
@@ -619,83 +688,151 @@ footer {
 
     /* Adjustments for the 'Projects' section */
     #projects {
-        margin-bottom: 10px; /* Adjust margin */
+        margin-bottom: 10px; 
     }
 
     .project-card h4 {
-        font-size: 18px; /* Adjust heading size */
+        font-size: 18px; 
     }
 
     .project-card p {
-        font-size: 16px; /* Adjust paragraph font size */
+        font-size: 16px; 
     }
 
     /* Adjustments for the 'Contact' section */
     #contact {
-        margin-bottom: 30px; /* Adjust margin */
+        margin-bottom: 30px; 
     }
 
     .contact-list li {
-        font-size: 14px; /* Adjust list item font size */
+        font-size: 14px; 
     }
 
     .contact-list li i {
-        font-size: 30px; /* Adjust icon size */
-        margin-right: 20px; /* Adjust margin */
+        font-size: 30px; 
+        margin-right: 20px; 
     }
 
     /* Adjustments for the 'Contact Form' */
     #contact form {
-        max-width: 300px; /* Adjust form width */
-        margin-bottom: 100px; /* Adjust margin */
+        max-width: 300px; 
+        margin-bottom: 100px; 
     }
 }
 
 /* For even smaller screens, adjust further */
 @media screen and (max-width: 480px) {
     body {
-        font-size: 12px; /* Further reduce font size */
+        font-size: 12px; 
     }
 
     .header-content img {
-        width: 120px; /* Adjust image size for even smaller screens */
+        width: 120px; 
         height: 120px;
     }
-
-    /* Other Section Adjustments */
+    nav ul {
+      display: flex;
+      justify-content:flex-end; 
+      padding: 0;
+    }
+    
+    nav ul li {
+      margin-right: 30px; 
+    }
+    
+    
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      color:aqua
+    }
 
     /* About Section */
     .details {
         margin-left: 20px; 
         font-size: 14px; 
     }
-
-    /* Education Section */
     .details {
-        margin-left: 10px; /* Adjust margin */
+        margin-left: 10px; 
     }
+/* self introduction Section */
+    #bio img {
+      top: 0px; 
+      margin-left: 120px; 
+      width: 150px;
+      height: 170px;
+    }
+  
+    #bio h4 {
+      font-size: 17px; 
+    }
+  
+    #bio p {
+      font-size: 12px; 
+    }
+  
+    .introduction h2 {
+      font-size: 20px; 
+    }
+  
+    .introduction h3 {
+      font-size: 13px; 
+    }
+
+  .elem-details,
+  .hs-details,
+  .college-details {
+    padding: 0px; 
+  }
+
+  #education h4 {
+    font-size: 18px; 
+  }
 
     /* Awards Section */
     #awards h2 {
-        font-size: 30px; /* Adjust header font size */
+        font-size: 30px;
     }
+
 
     /* Interests Section */
     .interest_details h2 {
-        font-size: 30px; /* Adjust header font size */
+        font-size: 30px; 
     }
 
     .interest_details h5 {
-        font-size: 14px; /* Adjust font size */
+        font-size: 14px; 
+    }
+    /* favorite novel Section */
+    .booknovel {
+      margin-right: 20px; 
+      margin-top: 20px; 
+    }
+  
+    .novel-image {
+      width: 150px;
+      margin-bottom: 5px;
+    }
+  
+    .novel-details {
+      margin-top: 5px;
+    }
+  
+    .novel-details h4 {
+      font-size: 20px;
+    }
+  
+    .novel-details p {
+      font-size: 14px;
     }
 
     /* Destination Section */
     .place {
-        margin-left: 10px; /* Adjust margin */
+        margin-left: 10px; 
     }
 
     .destination-item {
-        width: 200px; /* Adjust item width */
+        width: 200px;
     }
 
     /* Organization Details */
@@ -705,23 +842,23 @@ footer {
 
     /* Projects Section */
     #projects .project p {
-        margin-left: 10px; /* Adjust margin */
-        font-size: 16px; /* Adjust font size */
+        margin-left: 10px; 
+        font-size: 16px;
     }
 
     /* Contact Section */
     #contact form {
-        max-width: 250px; /* Adjust form width */
-        margin-left: 10px; /* Adjust margin */
+        max-width: 250px;
+        margin-left: 10px; 
     }
 
     .contact-list li {
-        font-size: 14px; /* Adjust font size */
+        font-size: 14px; 
     }
 
     .contact-list li i {
-        margin-right: 10px; /* Adjust margin */
-        font-size: 25px; /* Adjust icon size */
+        margin-right: 10px; 
+        font-size: 25px;
     }
 
     /* Footer */
@@ -733,19 +870,20 @@ footer {
    .elemcircle-image,
    .hscircle-image,
    .collegecircle-image {
-     width: 70px; /* Adjust image width */
-     height: 70px; /* Adjust image height */
+     width: 70px; 
+     height: 70px; 
+     margin-right: 100px;
 }
     .elem-details,
     .hs-details,
     .college-details {
-      padding-left: 100px; /* Adjust space for the image */
+      padding-bottom: 100px; 
     }
 
       /* Bio Image */
     #bio img {
-    top: 640px; /* Adjust positioning */
-    margin-left: 220px; /* Adjust positioning */
-    max-width: 200px; /* Adjust image width */
+    top: 640px; 
+    margin-left: 220px;
+    max-width: 200px;
 } 
 }
