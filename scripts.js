@@ -14,13 +14,22 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 function sendMessage() {
     // Logic to send the message (You can add your own logic here for message submission)
 
-    // For demonstration, display a success message below the submit button
-    var successMessage = document.getElementById("successMessage");
-    successMessage.style.display = "block";
-    successMessage.textContent = "Message sent successfully";
+    // Introduce a 2-second delay before displaying success message
+    setTimeout(function() {
+      // Display the success message
+      var successMessage = document.getElementById("successMessage");
+      successMessage.style.display = "block";
+      successMessage.textContent = "Message sent successfully";
+
+      // Reset the form after 4 seconds
+      setTimeout(function() {
+        document.getElementById("contactForm").reset();
+        successMessage.style.display = "none";
+      }, 4000); // 4 seconds delay for form reset
+    }, 2000); // 2 seconds delay for displaying the success message
 
     return false; // Prevent form submission
-}
+  }
 
 function toggleDetails(sectionId) {
     // Hide all sections except the one toggled
