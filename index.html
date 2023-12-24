@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lovelyn personal website</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  
+
+</head>
+  <body>
+    <header>
+      <div class="header-content">
+        <img src="C:\Users\lovelyn\OneDrive\文件\Lovelyn Personal Portfolio\websitePortfolio\images\seleno.jpg" alt="Lovelyn Magsino">
+        <div class="header-text">
+          <h2>Welcome to My Portfolio</h2>
+          <h3>Lovelyn Magsino</h3>
+          <p>An Information Technology Student</p>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#about"><i class="fas fa-info-circle"></i> About</a></li>
+        <li><a href="#projects"><i class="fas fa-laptop-code"></i> Projects</a></li>
+        <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+      </ul>
+    </nav>
+    <main> 
+          <section id="about">
+            <h2>About Me</h2>
+            <h3>Explore</h3>
+                
+                <div class="subsection">
+                 <h3 onclick="toggleDetails('bio')"><i class="fas fa-user"></i> SELF INTRODUCTION</h3>
+                 <div id="bio" class="details">
+                    <img src="C:\Users\lovelyn\OneDrive\文件\Lovelyn Personal Portfolio\websitePortfolio\images\lovelyn.jpg" alt="profile">
+                    <div class="introduction">
+                      <h2> HELLO! PLEASE TO MEET YOU. &#x1F60A;</h2>
+                      <h3> I am Lovelyn Magsino, a 3rd year student of BISU-balilihan taking up Bachelor of Science in Information Technology. The only Daughter in the family, living in Catigbian, Bohol. </h3>
+                      <p> Name: Lovelyn Sagubay Magsino</p>
+                      <p> Age: 21 years old</p>
+                      <p> Birth Date: September 13, 2002</p>
+                      <p> Nationality: Filipino</p>
+                      <p> Religion: Roman Catholic</p>
+                      <p> Languages: Visayan, Tagalog, English</p>
+                      <p> Status:Single</p>
+                      <p> Gender:Female</p>
+                      <p> Address:Purok 3, Ambuan Catigbian Bohol</p>
+                      <p> Mother's Maiden Name: Lolita Madig Sagubay</p>
+                      <p> Father's Name: Cesario Lumaad Magsino</p>
+                      <p> Siblings: Michael Magsino, Cesandre Magsino </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="subsection" onclick="toggleDetails('education')">
+                    <h3><i class="fas fa-graduation-cap"></i> EDUCATIONAL BACKGROUND</h3>
+                    <div id="education" class="details">
+                      <img class="elemcircle-image" src="C:\Users\lovelyn\OneDrive\文件\Lovelyn Personal Portfolio\websitePortfolio\images\ambuan.jpg" alt="elem">
+                      <div class="elem-details"> </div>
+                       <h3>EDUCATIONAL ATTAINMENT</h3>
+                       <h4> PRE-SCHOOL TO ELEMENTARY</h4>
+                       <p> AMBUAN ELEMENTARY SCHOOL</p>
+                       <P> Ambuan, Catigbian, Bohol</P>
+                       <p> School Year 2008-2015</p>
+                
+                      <img class="hscircle-image" src="C:\Users\lovelyn\OneDrive\文件\Lovelyn Personal Portfolio\websitePortfolio\images\CNHS.jpg" alt="hs">
+                      <div class="hs-details"> </div>
+                       <h4> HIGH SHOOL TO SENIOR HIGH</h4>
+                       <p> CATIGBIAN NATIONAL HIGH SCHOOL</p>
+                       <P> Poblacion, Catigbian, Bohol</P>
+                       <p> School Year 2015-2021</p>
+                       <p> Senior High Strand: General Academic Strand</p>
+                
+                      <img class="collegecircle-image" src="C:\Users\lovelyn\OneDrive\文件\Lovelyn Personal Portfolio\websitePortfolio\images\bisu_logo.png" alt="college">
+                      <div class="college-details"> </div>
+                      <h4> COLLEGE</h4>
+                      <p> BOHOL ISLAND STATE UNIVERSITY- BALILIHAN CAMPUS</p>
+                      <P> Magsija, Balilihan, Bohol</P>
+                      <p> School Year 2021-present</p>
+                      <p> Program/Course: Bachelor of Science in Informayion Technology</p>
+
+                    </div>
+                </div>
+                
+                <div class="subsection" onclick="toggleDetails('awards')">
+                    <h3><i class="fas fa-award"></i> ACADEMIC AWARDS</h3>
+                    <div id="awards" class="details">
+                          <h2>  ACADEMIC AWARDS <i class="fas fa-award"></i></h2>
+                        <h3> Elementary Awards</h4>
+                        <h4><i class="fas fa-award"></i> Service Award</h4>
+                        <h4><i class="fas fa-award"></i> Consistent With Honor 2008-2015</h4>
+                        <h4><i class="fas fa-award"></i> Best in Spelling</h4>
+                        <h4><i class="fas fa-award"></i> Best in Math</h4>
+                        <h4><i class="fas fa-award"></i> Girl Scout Awardee</h4>
+                        <h4><i class="fas fa-award"></i> Athlete of the Year 2012-2015</h4>
+                      
+                        <h3> High School and Senior High School Awards</h3>
+                        <h4><i class="fas fa-award"></i> Consistent With High Honor 2015-2021</h4>
+                        <h4><i class="fas fa-award"></i> Drum and Lyre Awardee</h4>
+                        <h4><i class="fas fa-award"></i> 1st place in Math Sayaw</h4>
+                        <h4><i class="fas fa-award"></i> 1st place in Spoken Poetry</h4>
+                        <h4><i class="fas fa-award"></i> 2nd place in singing competition</h4>
+                        <h4><i class="fas fa-award"></i> Choir Awardee</h4>
+                    </div>
+                </div>
+                
+                
+                <div class="subsection" onclick="toggleDetails('interests')">
+                    <h3><i class="fas fa-heart"></i> INTEREST AND HOBBIES</h3>
+                    <div id="interests" class="details">
+                      <div class="interest_details">
+                        <h2>THINGS I LOVE TO DO <i class="fas fa-heart"></i></h2>
+                        <h5>SINGING WITH THE CHOIR AND SINGING ALONE</h5>
+                           <p>My Childhood talent. Enjoying its beat and rhyme make the people jam.</p>
+                        <h5>LISTENING TO MUSIC</h5>
+                           <p>Music heals, give peace, calm a mind, and give relaxation .</p>
+                        <h5>DANCING</h5>
+                           <p> Dance when I'm at my mood of Dancing.</p>
+                        <h5>PLAYING VOLLEYBALL</h5>
+                           <p>My childhood sports. My way of exercising and our bonding time with my friends.</p>
+                        <h5>READING BOOK NOVEL</h5>
+                           <p> My way of escaping the reality. Keeping inspired by other story.</p>
+                        <h5>WATCHING MOVIES WITH DIFFERENT GENRE</h5>
+                           <p> Realizing and learning the different approach, culture, behavior, tradition of different people/country.</p>
+                        <h5>LOVE TRAVELLING</h5>
+                           <p> Getting to new places, new atmosphere, and new horizon make me in love the nature.</p>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="subsection" onclick="toggleDetails('novels')">
+                    <h3><i class="fas fa-book"></i>FAVORITE NOVELS</h3>
+                    <div id="novels" class="booknovel">
+                        <div class="novel-item">
+                            <div class="novel-content">
+                                <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1681839850i/21853621.jpg" alt="Novel 1" class="novel-image">
+                                <div class="novel-details">
+                                    <h4>THE NIGHTINGALE</h4>
+                                    <p>The Nightingale by Kristin Hannah is a novel that tells the story of two sisters in Nazi occupied France during World War II. It shows their bravery, sacrifices, and resilience while they fight to survive and resist the enemy.</p>
+                                    <p>"In love we find out who we want to be, In war we find out who we are"</p>
+                                    <a href="https://www.goodreads.com/book/show/21853621-the-nightingale" target="_blank">Read more about The Nightingale</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="novel-item">
+                            <div class="novel-content">
+                                <img src="https://cdn.kobo.com/book-images/e03461b2-8398-43d2-a774-46e7a5176b2d/1200/1200/False/a-walk-to-remember-4.jpg" alt="Novel 2" class="novel-image">
+                                <div class="novel-details">
+                                    <h4>A WALK TO REMEMBER</h4>
+                                    <p>What is A Walk to Remember novel about?
+                                        A Walk to Remember is a novel by American writer Nicholas Sparks, released in October 1999. The novel, set in 1958–1959 in Beaufort, North Carolina, is the story of an only son of a wealthy family that finds true love with the most unexpected person. The daughter of a minister (Mandy Moore) meets the only son (Shane West) and the story takes us through hard times, love and bitter sweet passion.</p>
+                                    <a href="https://www.goodreads.com/book/show/35545737-a-walk-to-remember">Read more about A Walk to Remember</a>
+                                </div>
+                            </div>
+                        </div>
+                       
+                        <div class="novel-item">
+                            <div class="novel-content">
+                                <img src="https://m.media-amazon.com/images/I/61IixzhezrL._AC_UF1000,1000_QL80_.jpg"alt="Novel 2" class="novel-image">
+                                <div class="novel-details">
+                                    <h4>THE HUNGER GAMES</h4>
+                                    <p>The Hunger Games is the first novel in author Suzanne Collins' The Hunger Games trilogy. Set in a post-apocalyptic, dystopian North America known as Panem, the story gets its name from its annual gladiatorial contest known as the Hunger Games.</p>
+                                    <p> The Games begin with a Reaping in which one boy and one girl (both of whom must be between the ages of twelve and eighteen) are chosen from each of Panem's districts. The children usually have their names selected at random, although they can volunteer. Selected tributes are whisked to the Capitol, where they have a brief training period before being forced to fight each other to the death. The Games are televised across the districts, and all citizens must watch; wealthy investors from the Capitol may "sponsor," or send gifts to, certain tributes. The last child to survive is the victor and their entire family is rewarded with a house in a wealthy part of their district known as the Victor's Village. However, the victors must later act as mentors toward tributes from their district in future Games.</p>
+                                    <p>The first novel follows the main character, Katniss Everdeen, as she struggles to survive the titular Games. The second novel, Catching Fire, follows Katniss as she is dragged back into the Games' arena amid a rebellion she unintentionally sparked, while the trilogy's conclusion, Mockingjay, chronicles a war to end the Capitol's regime of terror.</p>
+                                    <a href=https://www.goodreads.com/book/show/2767052-the-hunger-games>Read more about The Hunger Games</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="subsection" onclick="toggleDetails('destination')">
+                    <h3><i class="fas fa-plane"></i> DREAM DESTINATION</h3>
+                    <div id="destination" class="place">
+                        <div class="destination-item">
+                            <img src="https://media.istockphoto.com/id/635758088/photo/sunrise-at-the-eiffel-tower-in-paris-along-the-seine.jpg?s=612x612&w=0&k=20&c=rdy3aU1CDyh66mPyR5AAc1yJ0yEameR_v2vOXp2uuMM=" alt="Dream Destination">
+                            <div class="destination-details">
+                                <h4>THE CITY OF LOVE</h4>
+                                <h4>Paris, France</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="destination" class="place">
+                        <div class="destination-item">
+                            <img src="https://luxeadventuretraveler.com/wp-content/uploads/2016/11/Luxe-Adventure-Traveler-Coron-Island-Kayangan-Lake-1.jpg" alt="Dream Destination">>
+                            <div class="destination-details">
+                                <h4>CORON ISLAND</h4>
+                                <h4>Coron, Palawan Philippine
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="destination" class="place">
+                        <div class="destination-item">
+                            <img src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRiOLsWqtO8_7_qHj2ZKP8sJkCOcV7rTc0Lz-5OHmFbGEmn34IwOLBH0jvmSgUD-5hqwplJMIa0VLSQYRhTyUzzaL8bQ2rtaJPuGSjKIw" alt="Dream Destination">
+                            <div class="destination-details">
+                                <h4>THE CITY OF ROME</h4>
+                                <h4>Rome, Italy</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="subsection" onclick="toggleDetails('destination')">
+                   <div id="destination" class="place">
+                       <div class="destination-item">
+                          <img src="https://img.atlasobscura.com/h3HE22EyhtGyGGIM4JDmNFxKklaS0w0XUW7nlQ9ivGE/rt:fit/w:1200/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL2V2ZW50/X2ltYWdlcy8xMzZi/YjU1Zi05YTdmLTQ4/YjAtOGRkZS04OTY0/ZjRlZGQzYzhiNDRl/NjRiYjMxODliYTNi/Yjhfc2h1dHRlcnN0/b2NrXzc5MTc3ODEz/OS5qcGc.jpg" alt="Dream Destination">
+                            <div class="destination-details">
+                               <h4>ICELAND</h4>
+                               <h4> Northern Europe</h4>
+                           </div>
+                        </div>
+                   </div>
+
+                   <div id="destination" class="place">
+                      <div class="destination-item">
+                        <img src="https://www.wdw-magazine.com/wp-content/uploads/2022/01/sleeping-beauty-castle-reopens-paris_disneyland-paris-castle_shih.jpeg" alt="Dream Destination">
+                        <div class="destination-details">
+                           <h4>DISNEYLAND</h4>
+                           <h4>Paris</h4>
+                        </div>
+                      </div>
+                   </div>
+
+                    <div id="destination" class="place">
+                      <div class="destination-item">
+                        <img src="https://images.arigatotravel.com/wp-content/uploads/2019/06/27234354/shutterstock_119011768-e1560143978361.jpg" alt="Dream Destination">
+                         <div class="destination-details">
+                            <h4>MOUNT FUJI</h4>
+                            <h4>Japan</h4>
+                         </div>
+                      </div>
+                    </div>
+
+                    <div id="destination" class="place">
+                      <div class="destination-item">
+                        <img src="https://assets.traveltriangle.com/blog/wp-content/uploads/2020/02/Sydney_21st-feb1.jpg" alt="Dream Destination">
+                         <div class="destination-details">
+                            <h4>SYDNEY OPERA HOUSE</h4>
+                            <h4>Sydney</h4>
+                         </div>
+                      </div>
+                    </div>
+                  </div>
+                
+                  <div class="subsection" onclick="toggleDetails('organization')">
+                    <h3><i class="fas fa-organization"></i> ACTIVE ORGANIZATION</h3>
+                    <div id="organization" class="details">
+                        <div class="organization_details">
+                            <div class="organization">
+                                <h4>PARISH YOUTH MINISTRY (PYM) - Immaculate Conception Parish - Catigbian, Bohol</h4>
+                                <img src="C:\Users\lovelyn\OneDrive\文件\Lovelyn Personal Portfolio\websitePortfolio\images\pym.jpg" alt="pym" class="organization_image">
+                            </div>
+                            <div class="organization">
+                                <h4>BISU BALILIHAN CAMPUS CHOIR - BISU Balilihan - Magsija, Balilihan</h4>
+                                <img src="C:\Users\lovelyn\OneDrive\文件\Lovelyn Personal Portfolio\websitePortfolio\images\choir.jpg" alt="bisu" class="organization_image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+          </section>
+      
+    
+          <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+              <div class="project-card">
+                <h4><a href="https://github.com/lovelynMagsino/AsyncStorage.git?authuser=0">1. AsyncStorage</a></h4>
+                <p> AsyncStorage Example</p>
+              </div>
+            </div>
+
+            <div class="project">
+              <div class="project-card">
+                <h4><a href="https://github.com/lovelynMagsino/Components.git">2. Mobile Development Components</a></h4>
+                <p>  React-native mobile development components</p>
+              </div>
+            </div>
+
+            <div class="project">
+              <div class="project-card">
+                <h4><a href="https://github.com/lovelynMagsino/activity6.git">3. Object Mapping</a></h4>
+                <p> Mapping object using flatlist</p>
+              </div>
+            </div>    
+          </section>
+      
+    
+          <section id="contact">
+            <h2>Contact Me</h2>
+            <div class="contact-content">
+            <ul class="contact-list">
+              <li> 
+                <i class="fas fa-envelope"></i> lovelynmagsino9@gmail.com
+              </li>
+              <li>
+                <i class="fas fa-phone"></i>  910-8693-187
+              </li>
+              <li>
+                <i class="fab fa-facebook-messenger"></i> <a href="https://m.me/lovelyn.magsino.7/"> Lovelyn Magsino</a>
+              </li>
+              <li>
+                <i class="fab fa-instagram"></i> <a href="https://intagram.com/lovelyn6107/"> Intagram.com/lovelyn6107/ </a>
+              </li>
+              <li>
+                <i class="fab fa-facebook"></i> <a href="https://www.facabook.com/lovelyn.magsino.7"> Lovelyn Magsino </a>
+              </li>
+              <li>
+                <i class="fab fa-github"></i> <a href="https://github.com/lovelynMagsino"> lovelynMagsino </a>
+             </li>
+            </ul>
+
+            <form id="contactForm" action="submit.php" method="post"  onsubmit="return sendMessage()">
+              <p> SHARE YOUR THOUGHTS</p>
+              <input type="text" id="name" name="name" required  placeholder="Enter your name">
+          
+              <input type="email" id="email" name="email" required  placeholder="Enter your email">
+          
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="4" required  placeholder="Your Message"></textarea>
+          
+              <input type="submit" value="Submit">
+              <p id="successMessage" style="display:none; color: yellow"></p>
+            </form>
+          </div>
+          </section>  
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Your pretty Morenx @love</p>
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>

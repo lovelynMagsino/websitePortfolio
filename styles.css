@@ -1,0 +1,738 @@
+/* styles.css */
+
+/* body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black; 
+      
+}
+
+/* Header styles */
+
+/* Styles for the header container */
+header {
+    background-color:gray; /* Dark blue background color */
+    color: #fff; /* White text color */
+  }
+  
+  /* Container for header content */
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Styling for the image */
+  .header-content img {
+    width: 260px; /* Adjust the width of the image */
+    height: 260px; /* Adjust the height of the image */
+    border-radius: 50%; /* Make the image round */
+    object-fit:scale-down /* Maintain aspect ratio */
+  }
+  
+  /* Styling for the text in the header */
+  .header-text {
+    text-align: center;
+  }
+  
+  .header-text h3 {
+    font-size: 50px; /* Adjust the font size */
+    margin-bottom: 5px;
+    font-family: georgia;
+    font-style: normal;
+    color:skyblue
+  }
+  
+  .header-text p {
+    font-size: 16px; /* Adjust the font size */
+    margin-bottom: 10px;
+  }
+  
+  .header-text h2 {
+    font-size: 70px; /* Adjust the font size */
+    font-weight: bold;
+    font-family: helvetica;
+    color:black
+  }
+  
+  /* Styling for the navigation */
+  nav ul {
+    display: flex;
+    justify-content:flex-end; 
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin-right: 100px; /* Add 10px right margin */
+  }
+  
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    color:aqua
+  }
+
+.project p {
+    margin-top: 0px;
+    margin-bottom: 5px; 
+    margin-left: 63px;
+    font-style: italic;
+  }
+  .project h4 a {
+    margin-left: 40px;
+    font-family: monospace;
+    font-style: italic;
+    font-size: 15px;
+  }
+/* Main content styles */
+.main {
+    margin-left: 50px;
+}
+ main section h2{
+    font-family: 'cambria';
+    font-size:  70px;
+    color:darkcyan;
+}
+#about h3 {
+    color:silver;
+    margin-left: 25px;
+}
+/* about section subsection styles */
+.subsection {
+    cursor: pointer;
+    display: flex;
+    justify-content:flex-start;
+    text-align: left;
+    margin-bottom: 5px;
+    font-family:serif;
+    font-size: 18px;
+    font-style: normal;
+    color:silver;
+  }
+  .subsection h3 {
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .details {
+    display:none;
+    margin-left: 200px;
+    font-family: 'fantasy';
+    color:white;
+    margin-bottom: 20px;
+  }
+
+  .details.active {
+    display: block;
+  }
+  #bio img {
+    position:absolute;
+    top: 740px;
+    right: 20;
+    margin-left: 470px;
+    max-width: 320px;
+    width:100%;
+    height:auto;
+  }
+
+.details h3 {
+    margin-left:120px ;
+    font-size:35;
+    font-style: normal;
+    font-weight: bold;
+}.introduction h2{
+    font-family: sans-serif;
+    color: darkcyan;
+    font-size: 30px
+}
+.introduction h3 {
+    font-family: arial;
+    font-size: 17px;
+    color:mediumslateblue;
+    font-style: italic;
+    
+}
+#bio h4 {
+    font-size: 25px;
+    align-content: center;
+    text-align: center;
+    color:wheat;
+}
+#bio p {
+    font-size: 18px;
+    justify-content: space-evenly;
+}
+#education .details {
+    position: relative;
+}
+.elemcircle-image {
+    position: absolute;
+    top: 760px;
+    border-radius: 50%; /* Make the image circular */
+    width: 100px; /* Adjust the width and height as needed */
+    height: 100px; /* Adjust the wi
+    dth and height as needed */
+  }
+  .elem-details {
+    margin-left: 120px; /* Adjust this value to create space for the image */
+  }
+  .elem-details h2 {
+    color:aliceblue;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .hscircle-image {
+    position: absolute;
+    top: 940px;
+    border-radius: 60%; /* Make the image circular */
+    width: 95px; /* Adjust the width and height as needed */
+    height: 95px; /* Adjust the width and height as needed */
+    margin-right: 20px; /* Add margin to the right side of the image */
+    
+  }
+  .hs-details {
+    padding-left: 170px;/* Adjust this value to create space for the image */
+  }
+
+  .collegecircle-image {
+    position: absolute;
+    top: 1160px;
+    border-radius: 60%; /* Make the image circular */
+    width: 95px; /* Adjust the width and height as needed */
+    height: 95px; /* Adjust the width and height as needed */
+    margin-right: 20px; /* Add margin to the right side of the image */
+    
+  }
+  .college-details {
+    padding-left: 170px;/* Adjust this value to create space for the image */
+  }
+  
+#education p {
+    text-align: center;
+    align-content: center;
+    margin-bottom: 20px;
+}
+#education h4 {
+    color: indianred;
+}
+
+#awards h2 {
+    color:rosybrown;
+    font-family: Helvetica;
+    font-style: normal;
+    display:inline white;
+    font-size: 40px;
+}
+#awards h3 {
+    color:rgb(210, 30, 150);
+    font-family: 'Times New Roman', Times, serif;
+}
+#awards h4 {
+    color:white;
+}
+
+.interest_details h2 {
+color: white;
+font-size: 45px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-style: normal;
+font-weight: bold;
+border-color: white;
+}
+.interest_details h5 {
+    color:rosybrown;
+    font-family:Arial;
+    font-size: 20px;
+    display:list-item;
+    font-style: oblique;
+    margin-block: 10px;
+    justify-items: start;
+}
+.interest_details p {
+    display:absolute;
+    margin:15px;
+    color:khaki;
+}
+
+.booknovel {
+    margin-right: 40px; /* Adjust the margin-top value as needed */
+    margin-top: 30px
+}
+.novel-item {
+    display: flex;
+    align-items: flex-start;
+}
+
+.novel-content {
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.novel-image {
+    width: 250px; /* Adjust image width as needed */
+    height: 100; /* Maintain aspect ratio */
+    margin-right: 30px; /* Add margin between image and text */
+    margin-left: 150px; /* Move the image 50px to the right */
+}
+
+.novel-details {
+    flex-grow: 1;
+}
+.novel-details h4 {
+    color:#dca7a7;
+    font-family:serif;
+    font-style: italic;
+    font-size: 30px;
+}
+.novel-details p {
+    color: white;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+}
+#destination {
+    margin-top: 100px;
+}
+.place {
+    margin-left: 70px;
+}
+.destination-details h4 {
+    align-content: center;
+    align-items: center;
+    margin:0%;
+    color:black
+}
+.place {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.destination-item {
+    width: 250px;
+    text-align: center;
+    background-color:skyblue;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.destination-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four columns */
+    grid-gap: 10px; /* Adjust the gap between items */
+}
+.destination-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid skyblue; /* Add a border to separate image and text */
+}
+
+.destination-details {
+    padding: 10px;
+   
+}
+
+.destination-details h4 {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.organization_details {
+    margin-top: 70px;
+    scroll-margin-left: 20px;
+}
+/* Style for the organization details */
+.organization_details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap:15px;
+    color:antiquewhite
+}
+
+/* Style for each organization entry */
+.organization {
+    padding: 10px;
+    background-color: grey;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.organization h4 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color:white;
+    text-align: center;
+}
+
+.organization img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.organization img:hover {
+    transform: scale(1.05);
+}
+/* Projects Section */
+#projects {
+    margin-bottom: 15px;
+  }
+  
+  .project {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .project-card {
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: silver;
+  }
+  
+  .project-card h4 {
+    margin-bottom: 5px;
+  }
+  
+  .project-card p {
+    color: black;
+    font-size: 20px;
+  }
+  .project-card i {
+    font-size: 20px;
+  }
+  
+  /* Contact Section */
+  #contact {
+    margin-bottom: 50px;
+  }
+  
+  .contact-list {
+    list-style: none;
+    padding: 0;
+    margin-left: 50px;
+  }
+  .contact-list a {
+ color:white
+  }
+  
+  .contact-list li {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: white;
+  }
+  
+  .contact-list li i {
+    margin-right: 30px;
+    color: #ffffff;
+    font-size: 40px;
+  }
+  /* Contact Form Styles */
+#contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin:auto;
+    margin-bottom: 200px;
+  }
+  #contact form p {
+    color: yellowgreen;
+  }  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #3498db;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #2980b9;
+  }
+  
+
+/* Footer styles */
+footer {
+    background-color:grey;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* For smaller screens */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px; /* Adjust base font size */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    header {
+        padding: 15px; /* Adjust header padding */
+    }
+
+    .header-content img {
+        width: 150px; /* Adjust image size for smaller screens */
+        height: 150px;
+    }
+
+    .header-text h3 {
+        font-size: 24px; /* Reduce font size for smaller screens */
+    }
+
+    .header-text h2 {
+        font-size: 32px; /* Reduce font size for smaller screens */
+    }
+
+    nav ul {
+        margin-top: 15px; /* Adjust margin for smaller screens */
+    }
+
+    main {
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+
+    main section h2 {
+        font-size: 32px; /* Adjust heading font size */
+    }
+
+    .subsection {
+        flex-direction: column; /* Stack items for smaller screens */
+    }
+
+    .details {
+        margin-left: 0; /* Remove excessive margin */
+    }
+
+    #bio img {
+        width: 100%; /* Ensure images fit container width */
+        margin: 15px auto; /* Center align image */
+        display: block;
+    }
+
+    .elemcircle-image,
+    .hscircle-image,
+    .collegecircle-image {
+        width: 70px; /* Adjust circle images for smaller screens */
+        height: 70px;
+    }
+
+    .elem-details,
+    .hs-details,
+    .college-details {
+        padding-left: 15px; /* Adjust padding for details */
+    }
+
+    #education p {
+        text-align: left; /* Reset text alignment */
+    }
+
+    #awards h2 {
+        font-size: 28px; /* Adjust heading size */
+    }
+
+    .interest_details h2 {
+        font-size: 32px; /* Adjust interest heading size */
+    }
+
+    .booknovel {
+        margin-right: 20px; /* Adjust margin */
+        margin-top: 20px;
+    }
+
+    .novel-image {
+        width: 200px; /* Adjust image size */
+        margin-left: 0; /* Reset margin */
+    }
+
+    .novel-details h4 {
+        font-size: 24px; /* Adjust novel details heading size */
+    }
+
+    #destination {
+        margin-top: 50px; /* Adjust margin */
+    }
+
+    .place {
+        margin-left: 0; /* Reset margin */
+    }
+
+    .destination-details h4 {
+        text-align: center; /* Center align heading */
+    }
+
+    .destination-item {
+        width: 100%; /* Full width for items */
+        margin-bottom: 15px;
+    }
+
+    .destination-item img {
+        height: 150px; /* Adjust image height */
+    }
+
+    .organization_details {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Adjust grid columns */
+    }
+    /* Adjustments for the 'Projects' section */
+    #projects {
+        margin-bottom: 10px; /* Adjust margin */
+    }
+
+    .project-card h4 {
+        font-size: 18px; /* Adjust heading size */
+    }
+
+    .project-card p {
+        font-size: 16px; /* Adjust paragraph font size */
+    }
+
+    /* Adjustments for the 'Contact' section */
+    #contact {
+        margin-bottom: 30px; /* Adjust margin */
+    }
+
+    .contact-list li {
+        font-size: 14px; /* Adjust list item font size */
+    }
+
+    .contact-list li i {
+        font-size: 30px; /* Adjust icon size */
+        margin-right: 20px; /* Adjust margin */
+    }
+
+    /* Adjustments for the 'Contact Form' */
+    #contact form {
+        max-width: 300px; /* Adjust form width */
+        margin-bottom: 100px; /* Adjust margin */
+    }
+
+
+    /* Further adjustments for other sections */
+}
+/* For even smaller screens, adjust further */
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 12px; /* Further reduce font size */
+    }
+
+    .header-content img {
+        width: 120px; /* Adjust image size for even smaller screens */
+        height: 120px;
+    }
+
+    /* Other Section Adjustments */
+
+    /* About Section */
+    .details {
+        margin-left: 20px; /* Adjust margin */
+        font-size: 14px; /* Adjust font size */
+    }
+
+    /* Education Section */
+    .details {
+        margin-left: 10px; /* Adjust margin */
+    }
+
+    /* Awards Section */
+    #awards h2 {
+        font-size: 30px; /* Adjust header font size */
+    }
+
+    /* Interests Section */
+    .interest_details h2 {
+        font-size: 30px; /* Adjust header font size */
+    }
+
+    .interest_details h5 {
+        font-size: 14px; /* Adjust font size */
+    }
+
+    /* Destination Section */
+    .place {
+        margin-left: 10px; /* Adjust margin */
+    }
+
+    .destination-item {
+        width: 200px; /* Adjust item width */
+    }
+
+    /* Organization Details */
+    .organization_details {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust grid */
+    }
+
+    /* Projects Section */
+    #projects .project p {
+        margin-left: 10px; /* Adjust margin */
+        font-size: 16px; /* Adjust font size */
+    }
+
+    /* Contact Section */
+    #contact form {
+        max-width: 250px; /* Adjust form width */
+        margin-left: 10px; /* Adjust margin */
+    }
+
+    .contact-list li {
+        font-size: 14px; /* Adjust font size */
+    }
+
+    .contact-list li i {
+        margin-right: 10px; /* Adjust margin */
+        font-size: 25px; /* Adjust icon size */
+    }
+
+    /* Footer */
+    footer {
+        padding: 3px; /* Adjust padding */
+    }
+    /* Education Section */
+   .elemcircle-image,
+   .hscircle-image,
+   .collegecircle-image {
+     width: 70px; /* Adjust image width */
+     height: 70px; /* Adjust image height */
+}
+    .elem-details,
+    .hs-details,
+    .college-details {
+      padding-left: 100px; /* Adjust space for the image */
+
+      /* Bio Image */
+    #bio img {
+    top: 640px; /* Adjust positioning */
+    margin-left: 220px; /* Adjust positioning */
+    max-width: 200px; /* Adjust image width */
+}
+
+}
+
+    
+}
