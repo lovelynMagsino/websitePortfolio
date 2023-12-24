@@ -24,12 +24,11 @@ header {
     margin: 0 auto;
   }
   
-  /* Styling for the image */
+  /* Styling for the header image */
   .header-content img {
-    width: 260px; /* Adjust the width of the image */
-    height: 260px; /* Adjust the height of the image */
-    border-radius: 50%; /* Make the image round */
-    object-fit:scale-down /* Maintain aspect ratio */
+    width: 260px;
+    height: 260px; 
+    border-radius: 50%; 
   }
   
   /* Styling for the text in the header */
@@ -37,6 +36,7 @@ header {
     text-align: center;
   }
   
+  /* Styling for the text h3 in the header */
   .header-text h3 {
     font-size: 50px; /* Adjust the font size */
     margin-bottom: 5px;
@@ -45,13 +45,15 @@ header {
     color:skyblue
   }
   
+  /* Styling for the text p in the header */
   .header-text p {
-    font-size: 16px; /* Adjust the font size */
+    font-size: 16px;
     margin-bottom: 10px;
   }
   
+  /* Styling for the text h2 in the header */
   .header-text h2 {
-    font-size: 70px; /* Adjust the font size */
+    font-size: 70px; 
     font-weight: bold;
     font-family: helvetica;
     color:black
@@ -65,7 +67,7 @@ header {
   }
   
   nav ul li {
-    margin-right: 100px; /* Add 10px right margin */
+    margin-right: 100px; 
   }
   
   
@@ -75,18 +77,6 @@ header {
     color:aqua
   }
 
-.project p {
-    margin-top: 0px;
-    margin-bottom: 5px; 
-    margin-left: 63px;
-    font-style: italic;
-  }
-  .project h4 a {
-    margin-left: 40px;
-    font-family: monospace;
-    font-style: italic;
-    font-size: 15px;
-  }
 /* Main content styles */
 .main {
     margin-left: 50px;
@@ -96,11 +86,12 @@ header {
     font-size:  70px;
     color:darkcyan;
 }
+ /* Styling for the about section*/
 #about h3 {
     color:silver;
     margin-left: 25px;
 }
-/* about section subsection styles */
+/* styling for the subsection*/
 .subsection {
     cursor: pointer;
     display: flex;
@@ -116,7 +107,7 @@ header {
     cursor: pointer;
     margin-bottom: 10px;
   }
-  
+   /* Styling for the details inside the subsection */
   .details {
     display:none;
     margin-left: 200px;
@@ -128,6 +119,15 @@ header {
   .details.active {
     display: block;
   }
+
+  .details h3 {
+    margin-left:120px ;
+    font-size:35;
+    font-style: normal;
+    font-weight: bold;
+  }
+
+   /* Styling for the image of bio subsection of the about section*/
   #bio img {
     position:absolute;
     top: 740px;
@@ -137,25 +137,7 @@ header {
     width:100%;
     height:auto;
   }
-
-.details h3 {
-    margin-left:120px ;
-    font-size:35;
-    font-style: normal;
-    font-weight: bold;
-}.introduction h2{
-    font-family: sans-serif;
-    color: darkcyan;
-    font-size: 30px
-}
-.introduction h3 {
-    font-family: arial;
-    font-size: 17px;
-    color:mediumslateblue;
-    font-style: italic;
-    
-}
-#bio h4 {
+  #bio h4 {
     font-size: 25px;
     align-content: center;
     text-align: center;
@@ -165,19 +147,34 @@ header {
     font-size: 18px;
     justify-content: space-evenly;
 }
+
+  /* Styling for the subsection self-introduction of about section*/
+ .introduction h2{
+    font-family: sans-serif;
+    color: darkcyan;
+    font-size: 30px
+}
+.introduction h3 {
+    font-family: arial;
+    font-size: 17px;
+    color:mediumslateblue;
+    font-style: italic;
+}
+
+/* Styling for the subsection educational attainment of about section*/
 #education .details {
     position: relative;
 }
 .elemcircle-image {
     position: absolute;
     top: 760px;
-    border-radius: 50%; /* Make the image circular */
-    width: 100px; /* Adjust the width and height as needed */
-    height: 100px; /* Adjust the wi
-    dth and height as needed */
+    border-radius: 50%; 
+    width: 100px; 
+    height: 100px; 
   }
+
   .elem-details {
-    margin-left: 120px; /* Adjust this value to create space for the image */
+    margin-left: 120px;
   }
   .elem-details h2 {
     color:aliceblue;
@@ -187,27 +184,28 @@ header {
   .hscircle-image {
     position: absolute;
     top: 940px;
-    border-radius: 60%; /* Make the image circular */
-    width: 95px; /* Adjust the width and height as needed */
-    height: 95px; /* Adjust the width and height as needed */
-    margin-right: 20px; /* Add margin to the right side of the image */
+    border-radius: 60%; 
+    width: 95px; 
+    height: 95px; 
+    margin-right: 20px; 
+    object-position: cover;
     
   }
   .hs-details {
-    padding-left: 170px;/* Adjust this value to create space for the image */
+    padding-left: 170px;/* this value to create space for the image */
   }
 
   .collegecircle-image {
     position: absolute;
     top: 1160px;
-    border-radius: 60%; /* Make the image circular */
-    width: 95px; /* Adjust the width and height as needed */
-    height: 95px; /* Adjust the width and height as needed */
-    margin-right: 20px; /* Add margin to the right side of the image */
+    border-radius: 60%;
+    width: 95px; 
+    height: 95px;
+    margin-right: 20px; /*The margin to the right side of the image */
     
   }
   .college-details {
-    padding-left: 170px;/* Adjust this value to create space for the image */
+    padding-left: 170px;
   }
   
 #education p {
@@ -219,22 +217,26 @@ header {
     color: indianred;
 }
 
-#awards h2 {
+/* Styling for the subsection awards under about section*/
+
+#awards h2 { /* Styling for the award class h2*/
     color:rosybrown;
     font-family: Helvetica;
     font-style: normal;
     display:inline white;
     font-size: 40px;
 }
-#awards h3 {
+#awards h3 { /* Styling for the award class h3*/
     color:rgb(210, 30, 150);
     font-family: 'Times New Roman', Times, serif;
 }
-#awards h4 {
+#awards h4 { /* Styling for the award class h4*/
     color:white;
 }
 
-.interest_details h2 {
+
+/* Styling for the subsection interest and hobbies under the about section*/
+.interest_details h2 {  /* Styling for the  class interest_details  h2*/
 color: white;
 font-size: 45px;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -242,7 +244,7 @@ font-style: normal;
 font-weight: bold;
 border-color: white;
 }
-.interest_details h5 {
+.interest_details h5 {  /* Styling for the class interest_details h5*/
     color:rosybrown;
     font-family:Arial;
     font-size: 20px;
@@ -251,68 +253,75 @@ border-color: white;
     margin-block: 10px;
     justify-items: start;
 }
-.interest_details p {
+.interest_details p {   /* Styling for the class interest_details  p*/
     display:absolute;
     margin:15px;
     color:khaki;
 }
 
-.booknovel {
-    margin-right: 40px; /* Adjust the margin-top value as needed */
+/* Styling for the subsection favorite novel under the about section*/
+.booknovel {   /* Styling for the book novel class*/
+    margin-right: 40px; 
     margin-top: 30px
 }
-.novel-item {
+.novel-item {  /* Styling for the novel item class*/
     display: flex;
     align-items: flex-start;
 }
 
-.novel-content {
+.novel-content {  /* Styling for the novel-content class */
     display: flex;
     width: 100%;
     margin-top: 40px;
 }
 
-.novel-image {
-    width: 250px; /* Adjust image width as needed */
-    height: 100; /* Maintain aspect ratio */
-    margin-right: 30px; /* Add margin between image and text */
-    margin-left: 150px; /* Move the image 50px to the right */
+.novel-image {  /* Styling for the novel images*/
+    width: 250px;
+    height: 100; 
+    margin-right: 30px;
+    margin-left: 150px;
+    object-fit: contain;
 }
 
-.novel-details {
+.novel-details {  /* Styling for the noveldetails*/
     flex-grow: 1;
 }
-.novel-details h4 {
+.novel-details h4 { /* Styling for the novel-details h4*/
     color:#dca7a7;
     font-family:serif;
     font-style: italic;
     font-size: 30px;
 }
-.novel-details p {
+.novel-details p {  /* Styling for the novel-details p*/
     color: white;
     font-size: 18px;
     font-family:'Times New Roman', Times, serif;
     font-style: italic;
 }
+
+/* Styling for the destination subsection under the about section*/
 #destination {
     margin-top: 100px;
 }
-.place {
+.place {   /* Styling for the place class of destination subclass*/
     margin-left: 70px;
-}
-.destination-details h4 {
-    align-content: center;
-    align-items: center;
-    margin:0%;
-    color:black
-}
-.place {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
-
-.destination-item {
+.destination-details {
+    padding: 10px; /* Styling for the destination details*/
+   
+}
+.destination-details h4 {  /* Styling for the destination details h4*/
+    align-content: center;
+    align-items: center;
+    margin:0%;
+    color:black;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.destination-item { /* Styling for the destination item*/
     width: 250px;
     text-align: center;
     background-color:skyblue;
@@ -320,38 +329,26 @@ border-color: white;
     overflow: hidden;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
-.destination-grid {
+.destination-grid { /* Styling for the destination-grid for the images*/
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Four columns */
-    grid-gap: 10px; /* Adjust the gap between items */
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 10px;
 }
-.destination-item img {
+.destination-item img { /* Styling for the destination- item images*/
     width: 100%;
     height: 200px;
     object-fit: cover;
-    border-bottom: 2px solid skyblue; /* Add a border to separate image and text */
+    border-bottom: 2px solid skyblue;
 }
 
-.destination-details {
-    padding: 10px;
-   
-}
-
-.destination-details h4 {
-    margin-bottom: 5px;
-    font-size: 18px;
-}
-
-.organization_details {
-    margin-top: 70px;
-    scroll-margin-left: 20px;
-}
 /* Style for the organization details */
 .organization_details {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap:15px;
-    color:antiquewhite
+    color:antiquewhite;
+    margin-top: 70px;
+    scroll-margin-left: 20px;
 }
 
 /* Style for each organization entry */
@@ -363,14 +360,14 @@ border-color: white;
     overflow: hidden;
 }
 
-.organization h4 {
+.organization h4 { /* Style for organization h4 */
     font-size: 18px;
     margin-bottom: 8px;
     color:white;
     text-align: center;
 }
 
-.organization img {
+.organization img { /* Style for each organization images */
     width: 100%;
     height: auto;
     border-radius: 8px;
@@ -382,7 +379,9 @@ border-color: white;
 .organization img:hover {
     transform: scale(1.05);
 }
-/* Projects Section */
+
+/* Styling for the project section */
+
 #projects {
     margin-bottom: 15px;
   }
@@ -411,6 +410,19 @@ border-color: white;
   .project-card i {
     font-size: 20px;
   }
+
+  .project p {
+    margin-top: 0px;
+    margin-bottom: 5px; 
+    margin-left: 63px;
+    font-style: italic;
+  }
+  .project h4 a {
+    margin-left: 40px;
+    font-family: monospace;
+    font-style: italic;
+    font-size: 15px;
+  }
   
   /* Contact Section */
   #contact {
@@ -437,6 +449,7 @@ border-color: white;
     color: #ffffff;
     font-size: 40px;
   }
+
   /* Contact Form Styles */
 #contact form {
     display: flex;
@@ -487,40 +500,42 @@ footer {
     bottom: 0;
     width: 100%;
 }
-/* For smaller screens */
+
+
+/* styles For smaller screens */
 @media screen and (max-width: 768px) {
     body {
-        font-size: 14px; /* Adjust base font size */
-        padding: 10px; /* Adjust padding for smaller screens */
+        font-size: 14px; 
+        padding: 10px;
     }
 
     header {
-        padding: 15px; /* Adjust header padding */
+        padding: 15px; 
     }
 
     .header-content img {
-        width: 150px; /* Adjust image size for smaller screens */
+        width: 150px; 
         height: 150px;
     }
 
     .header-text h3 {
-        font-size: 24px; /* Reduce font size for smaller screens */
+        font-size: 24px; 
     }
 
     .header-text h2 {
-        font-size: 32px; /* Reduce font size for smaller screens */
+        font-size: 32px; 
     }
 
     nav ul {
-        margin-top: 15px; /* Adjust margin for smaller screens */
+        margin-top: 15px; 
     }
 
     main {
-        padding: 15px; /* Adjust padding for smaller screens */
+        padding: 15px; 
     }
 
     main section h2 {
-        font-size: 32px; /* Adjust heading font size */
+        font-size: 32px; 
     }
 
     .subsection {
@@ -540,14 +555,14 @@ footer {
     .elemcircle-image,
     .hscircle-image,
     .collegecircle-image {
-        width: 70px; /* Adjust circle images for smaller screens */
+        width: 70px; /* Adjustment for circle images for smaller screens */
         height: 70px;
     }
 
     .elem-details,
     .hs-details,
     .college-details {
-        padding-left: 15px; /* Adjust padding for details */
+        padding-left: 15px; /* Adjustment for padding for details */
     }
 
     #education p {
@@ -595,11 +610,13 @@ footer {
 
     .destination-item img {
         height: 150px; /* Adjust image height */
+        
     }
 
     .organization_details {
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Adjust grid columns */
     }
+
     /* Adjustments for the 'Projects' section */
     #projects {
         margin-bottom: 10px; /* Adjust margin */
@@ -632,10 +649,8 @@ footer {
         max-width: 300px; /* Adjust form width */
         margin-bottom: 100px; /* Adjust margin */
     }
-
-
-    /* Further adjustments for other sections */
 }
+
 /* For even smaller screens, adjust further */
 @media screen and (max-width: 480px) {
     body {
@@ -651,8 +666,8 @@ footer {
 
     /* About Section */
     .details {
-        margin-left: 20px; /* Adjust margin */
-        font-size: 14px; /* Adjust font size */
+        margin-left: 20px; 
+        font-size: 14px; 
     }
 
     /* Education Section */
@@ -685,7 +700,7 @@ footer {
 
     /* Organization Details */
     .organization_details {
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust grid */
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
     }
 
     /* Projects Section */
@@ -713,6 +728,7 @@ footer {
     footer {
         padding: 3px; /* Adjust padding */
     }
+
     /* Education Section */
    .elemcircle-image,
    .hscircle-image,
@@ -724,15 +740,12 @@ footer {
     .hs-details,
     .college-details {
       padding-left: 100px; /* Adjust space for the image */
+    }
 
       /* Bio Image */
     #bio img {
     top: 640px; /* Adjust positioning */
     margin-left: 220px; /* Adjust positioning */
     max-width: 200px; /* Adjust image width */
-}
-
-}
-
-    
+} 
 }
