@@ -262,7 +262,7 @@ border-color: white;
 /* Styling for the subsection favorite novel under the about section*/
 .booknovel {   /* Styling for the book novel class*/
     margin-right: 40px; 
-    margin-top: 30px
+    margin-top: 40px
 }
 .novel-item {  /* Styling for the novel item class*/
     display: flex;
@@ -277,7 +277,6 @@ border-color: white;
 
 .novel-image {  /* Styling for the novel images*/
     width: 250px;
-    height: 100; 
     margin-right: 30px;
     margin-left: 150px;
     object-fit: contain;
@@ -294,7 +293,7 @@ border-color: white;
 }
 .novel-details p {  /* Styling for the novel-details p*/
     color: white;
-    font-size: 18px;
+    font-size: 20px;
     font-family:'Times New Roman', Times, serif;
     font-style: italic;
 }
@@ -496,9 +495,9 @@ footer {
   color: #fff;
   text-align: center;
   padding: 10px;
-  position: fixed;
-  bottom: 0;
-  width: 97.5%;
+  position: relative;
+  bottom: 0px;
+  width:98.5%;
 }
 
 
@@ -583,27 +582,42 @@ footer {
       .introduction h3 {
         font-size: 15px;
       }
-
-      .elemcircle-image,
-      .hscircle-image,
-      .collegecircle-image {
-        width: 70px;
-        height: 70px; 
+      .elemcircle-image {
+        width: 80px;
+        height: 80px; 
         position: absolute; 
-        top: 20px;
-        right: 20px; 
+        top: 640px;
+        right: 220px; 
         border-radius: 50%; 
-        margin-left: 50px; 
+        margin-right: 300px; 
+      }
+      .hscircle-image {
+        width: 80px;
+        height: 80px; 
+        position: absolute; 
+        top: 810px;
+        right: 220px; 
+        border-radius: 50%; 
+        margin-right: 300px; 
+      }
+      .collegecircle-image {
+        width: 80px;
+        height: 80px; 
+        position: absolute; 
+        top: 1030px;
+        right: 220px; 
+        border-radius: 50%; 
+        margin-right: 300px;
       }
     
       /* Adjusted styles for details */
       .elem-details,
       .hs-details,
       .college-details {
-        padding: 0 20px; 
-        text-align: center; 
+
+      text-align: center; 
       }
-    
+
       #education p {
         margin-bottom: 10px; 
       }
@@ -613,8 +627,8 @@ footer {
       }
     
     .booknovel {
-      margin-right: 20px; 
-      margin-top: 20px;
+      margin-right: 10px; 
+      margin-top: 10px;
     }
   
     .novel-image {
@@ -627,11 +641,11 @@ footer {
     }
   
     .novel-details h4 {
-      font-size: 25px;
+      font-size: 20px;
     }
   
     .novel-details p {
-      font-size: 16px;
+      font-size: 12px;
     }
 
     #awards h2 {
@@ -656,7 +670,7 @@ footer {
         font-size: 24px; /* Adjust novel details heading size */
     }
     .novel-details p {
-      font-size: 10px;
+      font-size: 14px;
 
     }
 
@@ -779,11 +793,41 @@ footer {
       font-size: 13px; 
     }
 
-  .elem-details,
-  .hs-details,
-  .college-details {
-    padding: 0px; 
-  }
+  .elemcircle-image {
+        width: 80px;
+        height: 80px; 
+        position: absolute; 
+        top: 760px;
+        right: 220px; 
+        border-radius: 50%; 
+        margin-left: 220px; 
+      }
+      .hscircle-image {
+        width: 80px;
+        height: 80px; 
+        position: absolute; 
+        top: 1015px;
+        right: 220px; 
+        border-radius: 50%; 
+        margin-left: 220px; 
+      }
+      .collegecircle-image {
+        width: 80px;
+        height: 80px; 
+        position: absolute; 
+        top: 1305px;
+        right: 220px; 
+        border-radius: 50%; 
+        margin-left: 200px; 
+      }
+    
+      /* Adjusted styles for details */
+      .elem-details,
+      .hs-details,
+      .college-details {
+
+      text-align: center; 
+      }
 
   #education h4 {
     font-size: 18px; 
@@ -805,13 +849,14 @@ footer {
     }
     /* favorite novel Section */
     .booknovel {
-      margin-right: 20px; 
-      margin-top: 20px; 
+      margin-right: 10px; 
+      margin-top: 10px; 
     }
   
     .novel-image {
       width: 150px;
-      margin-bottom: 5px;
+      height:270px;
+      margin-bottom: 70px;
     }
   
     .novel-details {
@@ -819,11 +864,11 @@ footer {
     }
   
     .novel-details h4 {
-      font-size: 20px;
+      font-size: 15px;
     }
   
     .novel-details p {
-      font-size: 14px;
+      font-size: 10px;
     }
 
     /* Destination Section */
@@ -886,4 +931,14 @@ footer {
     margin-left: 220px;
     max-width: 200px;
 } 
+
+footer {
+  background-color:grey;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position:relative;
+  bottom: 0px;
+  width: 96%;
+}
 }
